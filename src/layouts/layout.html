@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="UTF-8" />
   <title>{{ title }}</title>
@@ -12,8 +11,8 @@
   <meta name="Distribution" content="Global" />
   <meta name="Rating" content="General" />
   <meta name="Robots" content="INDEX,FOLLOW" />
-  <meta name="author" content="King Kabob" />
-  <meta name="copyright" content="Copyright King Kabob - {{year}}" />
+  <meta name="author" content="{{ company }}" />
+  <meta name="copyright" content="Copyright {{ company }} - {{year}}" />
   <meta name="Revisit-after" content="31 Days" />
   <meta name="google-site-verification" content="" />
   <meta name="application-name" content="{{ company }}">
@@ -27,13 +26,11 @@
   <meta property="og:locality" content="{{location.city}}" />
   <meta property="og:region" content="{{location.state}}" />
   <meta property="og:country-name" content="USA" />
-  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="css/site.css" />
   <link rel="stylesheet" href="https://unpkg.com/picnic">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 </head>
-
 <body>
-
   <div class="hidden">
     <div itemprop="LocalBusiness" itemscope itemtype="http://schema.org/LocalBusiness">
       <span itemprop="currenciesAccepted">USD</span>,
@@ -51,10 +48,8 @@
       <meta itemprop="legalName" content="{{ company }}" />
     </div>
   </div>
-
   <main>
   {{{ contents }}}
   </main>
-   
 </body>
 </html>
