@@ -46,7 +46,7 @@ nav .brand {
     min-height: 300px;
     color: #333;
     padding: 1px 0;
-    background: #b9dbff url(/images/6e7fbb_fdbae8cac8894c0c80cb088f7ff70503_mv2_d_5000_3333_s_4_2.webp) no-repeat 50% center scroll;
+    background: #b9dbff url(../../images/6e7fbb_fdbae8cac8894c0c80cb088f7ff70503_mv2_d_5000_3333_s_4_2.webp) no-repeat 50% center scroll;
     background-size: cover;
     text-align: center;
 }
