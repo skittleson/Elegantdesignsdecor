@@ -8,7 +8,7 @@ layout: layout.html
   <div class="menu">
     <a href="#services" class="pseudo button" onclick='hideBurger()'>Services</a>
     <a href="#gallery" class="pseudo button" onclick='hideBurger()'>Gallery</a>
-    <button class="blackButton" onclick="window.location.hash='contact'; hideBurger();">Contact Us</button>
+    <a href="#contact" class="pseudo button blackButton" onclick='hideBurger()'>Contact Us</a>
   </div>
 </nav>
 
