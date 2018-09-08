@@ -3,12 +3,12 @@ layout: layout.html
 ---
 
 <nav>
-  <a href="/" class="brand"><span>Elegant Designs <div class='small-device'></div> & Decor</span></a>
+  <a href="/" class="brand"><span>Elegant Designs <div class='small-device'></div>&nbsp; &amp; Decor</span></a>
   <input id="bmenu" type="checkbox" class="show"><label for="bmenu" class="burger toggle pseudo button">menu</label>
   <div class="menu">
-    <a href="#services" class="pseudo button">Services</a>
-    <a href="#gallery" class="pseudo button">Gallery</a>
-    <button class="blackButton" onclick="window.location.hash='contact'">Contact Us</button>
+    <a href="#services" class="pseudo button" onclick='hideBurger()'>Services</a>
+    <a href="#gallery" class="pseudo button" onclick='hideBurger()'>Gallery</a>
+    <button class="blackButton" onclick="window.location.hash='contact'; hideBurger();">Contact Us</button>
   </div>
 </nav>
 
@@ -20,7 +20,7 @@ layout: layout.html
 </header>
 
 
-<div class='visual'>
+<div class='visual content'>
 
 <div id='services'>
   <div class="strike">
@@ -54,10 +54,10 @@ layout: layout.html
   <label for="tabC-4"><img src="images/39008845_2079342585651411_3199862102806233088_n.jpg"></label>
   <div class='row'>
     <div>
-      <img src="images/38618265_2057673987879400_994536236150423552_n.jpg">
+      <img src="images/18253078_1867800486806072_543858158070661120_n.jpg">
     </div>
     <div>
-      <img src="images/18253078_1867800486806072_543858158070661120_n.jpg">
+      <img src="images/38618265_2057673987879400_994536236150423552_n.jpg">
     </div>
     <div>
       <img src="images/33721611_1957840554291205_1584923514400407552_n.jpg">
@@ -66,21 +66,25 @@ layout: layout.html
       <img src="images/39008845_2079342585651411_3199862102806233088_n.jpg">
     </div>
   </div>
-  
 </div>
-
 
 <div id='contact' class="strike">
   <span>Contact Us</span>
 </div>
-
-
-<div class="visual flex one two-800"><div class="content">
-<h2>We are there for you!</h2>
-<p>Get the best experience for your best day!</p>
-
-</div>
-
-
+<a class='small-device' href='https://goo.gl/forms/omAWZZYsXM2nqJLc2' target='_blank'> Click here to contact us!</a>
+<div class='center-div' style='width:600px'>
+  <iframe class='large-device' src="https://docs.google.com/forms/d/e/1FAIpQLSdzkZqiPSz8dCOKx-Vy9uNaWUHtzEVRx5F7hhQbAnYkFH8I6Q/viewform?embedded=true" height="946" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen width='600'>Loading...</iframe>
 </div>
 <br/><br/><br/>
+
+
+<script type='javascript/text'>
+  function hideBurger(){
+    document.getElementById("bmenu").click();
+  }
+  document.onkeydown = function(e){
+  if (e.keyCode == 27) {
+     hideBurger();
+  }
+}
+</script>

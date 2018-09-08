@@ -13,7 +13,7 @@ Metalsmith(__dirname)
     title: "Event Design, Event Planning, Floral Artistry | Elegant Designs and Decor",
     description: "in Fairfax, VA. ",
     keywords: "fairfax",
-    url: "https://edad.com/",
+    url: "https://elegantdesignsanddecor.com/",
     phone: "",
     year: "2018"
   })

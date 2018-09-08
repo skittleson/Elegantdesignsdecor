@@ -27,6 +27,7 @@ nav .brand {
 }
 
 .small-device {display:none;}
+.large-device { display: block;}
 @media only screen and (max-width: 600px) {
     nav .brand {
         font-size: 1em;
@@ -34,6 +35,9 @@ nav .brand {
     .small-device {
         display: block;
         clear: both;
+    }
+    .large-device {
+        display: none;
     }
 }
 
@@ -113,4 +117,16 @@ nav .brand {
 .strike > span:after {
     left: 100%;
     margin-left: 15px;
+}
+
+.center-div
+{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    padding-left:2%;
+    padding-right:2%;
 }
