@@ -3,11 +3,11 @@ body,
 main {
     display: block;
     color: #333;
-    background: #fff;
     width: 100%;
     height: 100%;
     margin: 0;
     z-index: 5;
+    background-color: white;
 }
 
 .hidden {
@@ -17,17 +17,25 @@ main {
 nav {
     background-color: white;
 }
+
 nav .brand {
     font-size: 2em;
     font-family: 'Allura', cursive;
     word-wrap: break-word;
 }
+
 .allura {
     font-family: 'Allura', cursive;
 }
 
-.small-device {display:none;}
-.large-device { display: block;}
+.small-device {
+    display: none;
+}
+
+.large-device {
+    display: block;
+}
+
 @media only screen and (max-width: 600px) {
     nav .brand {
         font-size: 1em;
@@ -50,7 +58,7 @@ nav .brand {
     min-height: 300px;
     color: #333;
     padding: 1px 0;
-    background: #b9dbff url(../../images/6e7fbb_fdbae8cac8894c0c80cb088f7ff70503_mv2_d_5000_3333_s_4_2.webp) no-repeat 50% center scroll;
+    background: #b9dbff url(../../images/examples/003.webp) no-repeat 50% center scroll;
     background-size: cover;
     text-align: center;
 }
@@ -81,12 +89,12 @@ nav .brand {
     display: block;
     text-align: center;
     overflow: hidden;
-    white-space: nowrap; 
+    white-space: nowrap;
     padding-top: 3em;
     padding-bottom: 1.5em;
 }
 
-.strike > span {
+.strike>span {
     position: relative;
     display: inline-block;
     font-size: 5em;
@@ -94,13 +102,13 @@ nav .brand {
 }
 
 @media only screen and (max-width: 600px) {
-    .strike > span {
+    .strike>span {
         font-size: 2em;
     }
 }
 
-.strike > span:before,
-.strike > span:after {
+.strike>span:before,
+.strike>span:after {
     content: "";
     position: absolute;
     top: 50%;
@@ -109,24 +117,71 @@ nav .brand {
     background: #555;
 }
 
-.strike > span:before {
+.strike>span:before {
     right: 100%;
     margin-right: 15px;
 }
 
-.strike > span:after {
+.strike>span:after {
     left: 100%;
     margin-left: 15px;
 }
 
-.center-div
-{
+.center-div {
     margin: 0 auto;
     width: 100px;
     height: 100px;
 }
 
 .content {
-    padding-left:2%;
-    padding-right:2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.grid-photo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: start;
+}
+
+.grid-photo img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 200px;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+
+.header,
+.footer {
+    flex: 1 100%;
+}
+
+.flex-col {
+    flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-col {
+        flex: 1 100%;
+    }
 }

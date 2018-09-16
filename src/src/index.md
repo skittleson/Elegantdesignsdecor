@@ -3,8 +3,9 @@ layout: layout.html
 ---
 
 <nav>
-  <a href="/" class="brand"><span>Elegant Designs <div class='small-device'></div>&nbsp; &amp; Decor</span></a>
-  <input id="bmenu" type="checkbox" class="show"><label for="bmenu" class="burger toggle pseudo button">menu</label>
+  <a href="/" class="brand"><span>Elegant Design <div class='small-device'></div>&nbsp; &amp; Decor</span></a>
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">&#9776; Menu</label>
   <div class="menu">
     <a href="#services" class="pseudo button" onclick='hideBurger()'>Services</a>
     <a href="#gallery" class="pseudo button" onclick='hideBurger()'>Gallery</a>
@@ -18,7 +19,6 @@ layout: layout.html
 
   </div>
 </header>
-
 
 <div class='visual content'>
 
@@ -36,55 +36,40 @@ layout: layout.html
     designers, we help bring all your floral dreams come true. From the moment we help you select your arrangement style, you will be assured to have your vision come to life during your mock sample set-up.
     Something borrowed, something blue, and something created just for your event! Our custom handmade decor pieces are uniquely created per event for a timeless touch.</p>
 
-
 <div id='gallery' class="strike">
   <span>Gallery</span>
 </div>
 
-
-<div class="tabs four">
-  
-  <input id="tabC-1" type='radio' name='tabGroupC' checked >
-  <input id="tabC-2" type='radio' name='tabGroupC'>
-  <input id="tabC-3" type='radio' name='tabGroupC'>
-  <input id="tabC-4" type='radio' name='tabGroupC'>
-  <label for="tabC-1"><img src="images/18253078_1867800486806072_543858158070661120_n.jpg"></label>
-  <label for="tabC-2"><img src="images/33721611_1957840554291205_1584923514400407552_n.jpg"></label>
-  <label for="tabC-3"><img src="images/38618265_2057673987879400_994536236150423552_n.jpg"></label>
-  <label for="tabC-4"><img src="images/39008845_2079342585651411_3199862102806233088_n.jpg"></label>
-  <div class='row'>
-    <div>
-      <img src="images/18253078_1867800486806072_543858158070661120_n.jpg">
-    </div>
-    <div>
-      <img src="images/38618265_2057673987879400_994536236150423552_n.jpg">
-    </div>
-    <div>
-      <img src="images/33721611_1957840554291205_1584923514400407552_n.jpg">
-    </div>
-    <div>
-      <img src="images/39008845_2079342585651411_3199862102806233088_n.jpg">
-    </div>
-  </div>
+<div class="grid-photo">
+  <a href='images/examples/001.webp'><img src="images/examples/001.webp"></a>
+  <a href='images/examples/002.webp'><img src="images/examples/002.webp"></a>
+  <a href='images/examples/003.webp'><img src="images/examples/003.webp"></a>
+  <a href='images/examples/004.webp'><img src="images/examples/004.webp"></a>
+  <a href='images/examples/005.webp'><img src="images/examples/005.webp"></a>
+  <a href='images/examples/006.webp'><img src="images/examples/006.webp"></a>
 </div>
 
 <div id='contact' class="strike">
   <span>Contact Us</span>
 </div>
-<a class='small-device' href='https://goo.gl/forms/omAWZZYsXM2nqJLc2' target='_blank'> Click here to contact us!</a>
-<div class='center-div' style='width:600px'>
-  <iframe class='large-device' src="https://docs.google.com/forms/d/e/1FAIpQLSdzkZqiPSz8dCOKx-Vy9uNaWUHtzEVRx5F7hhQbAnYkFH8I6Q/viewform?embedded=true" height="946" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen width='600'>Loading...</iframe>
-</div>
-<br/><br/><br/>
+<h3 style='padding-top:0;margin-top:0;'>Customer Service</h3>
+<p>
+<a href='tel:17039657132'>703-965-7132</a>
+<br/>
+<a href='email:elegantdesignanddecor@gmail.com'>elegantdesignanddecor@gmail.com</a>
+</p>
 
+<ul class="flex-container">
+  <li class="flex-item flex-col">
+      <h3>Showroom Hours</h3>
+      MON - FRI: 10A - 5P<br/>
+      SAT: 12P - 5P<br/>
+      SUN: Closed
+  </li>
+  <li class="flex-item flex-col">
+    <h3>Fairfax <br/>Showroom</h3>
+    <address>4173 Jeremy Grove <br/>Fairfax, VA 22030</address>
+  </li>
+</ul>
 
-<script type='javascript/text'>
-  function hideBurger(){
-    document.getElementById("bmenu").click();
-  }
-  document.onkeydown = function(e){
-  if (e.keyCode == 27) {
-     hideBurger();
-  }
-}
-</script>
+<script async src="js/site.js"></script>
