@@ -180,6 +180,10 @@ nav .brand {
     flex: 1;
 }
 
+.flex-full {
+    flex: 1 100%;
+}
+
 @media only screen and (max-width: 600px) {
     .flex-col {
         flex: 1 100%;

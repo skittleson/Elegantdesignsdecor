@@ -70,10 +70,14 @@ layout: layout.html
     <h3>Fairfax <br/>Showroom</h3>
     <address>4173 Jeremy Grove <br/>Fairfax, VA 22030</address>
   </li>
+
+  <li class='flex-item flex-full'>
+    <div class='center-div' style='width:100%'>
+      <iframe id='googleForm' src="https://docs.google.com/forms/d/e/1FAIpQLSdzkZqiPSz8dCOKx-Vy9uNaWUHtzEVRx5F7hhQbAnYkFH8I6Q/viewform?embedded=true" height="946" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen style='width:100%'>Loading...</iframe>
+    </div>
+  </li>
 </ul>
-<a class='small-device' href='https://goo.gl/forms/omAWZZYsXM2nqJLc2' target='_blank'> Click here to contact us form!</a>
-<div class='center-div' style='width:100%'>
-  <iframe id='googleForm' src="https://docs.google.com/forms/d/e/1FAIpQLSdzkZqiPSz8dCOKx-Vy9uNaWUHtzEVRx5F7hhQbAnYkFH8I6Q/viewform?embedded=true" height="946" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen style='width:100%'>Loading...</iframe>
-</div>
+
 <br/><br/><br/>
+
 <script async src="js/site.js"></script>
