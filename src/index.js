@@ -9,11 +9,11 @@ var cleanCSS = require("metalsmith-clean-css");
 
 Metalsmith(__dirname)
   .metadata({
-    company: "Elegant Design and Decor",
-    title: "Event Design, Event Planning, Floral Artistry | Elegant Design and Decor",
+    company: "Elegant Designs and Decor",
+    title: "Event Design, Event Planning, Floral Artistry | Elegant Designs and Decor",
     description: "in Fairfax, VA. ",
     keywords: "fairfax",
-    url: "https://ElegantDesignAndDecor.com/",
+    url: "https://ElegantDesignsAndDecor.com/",
     phone: "703-965-7132",
     year: "2018"
   })

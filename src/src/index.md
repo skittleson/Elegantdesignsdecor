@@ -3,7 +3,7 @@ layout: layout.html
 ---
 
 <nav>
-  <a href="/" class="brand"><span>Elegant Design <div class='small-device'></div>&nbsp; &amp; Decor</span></a>
+  <a href="/" class="brand"><span>Elegant Designs <div class='small-device'></div>&nbsp; &amp; Decor</span></a>
   <input id="bmenub" type="checkbox" class="show">
   <label for="bmenub" class="burger pseudo button">&#9776; Menu</label>
   <div class="menu">
@@ -41,12 +41,12 @@ layout: layout.html
 </div>
 
 <div class="grid-photo">
-  <a href='images/examples/001.webp'><img src="images/examples/001.webp"></a>
-  <a href='images/examples/002.webp'><img src="images/examples/002.webp"></a>
-  <a href='images/examples/003.webp'><img src="images/examples/003.webp"></a>
-  <a href='images/examples/004.webp'><img src="images/examples/004.webp"></a>
-  <a href='images/examples/005.webp'><img src="images/examples/005.webp"></a>
-  <a href='images/examples/006.webp'><img src="images/examples/006.webp"></a>
+  <a href='images/examples/001.webp'><img src="images/examples/001.jpg"></a>
+  <a href='images/examples/002.webp'><img src="images/examples/002.jpg"></a>
+  <a href='images/examples/003.webp'><img src="images/examples/003.jpg"></a>
+  <a href='images/examples/004.webp'><img src="images/examples/004.jpg"></a>
+  <a href='images/examples/005.webp'><img src="images/examples/005.jpg"></a>
+  <a href='images/examples/006.webp'><img src="images/examples/006.jpg"></a>
 </div>
 
 <div id='contact' class="strike">
@@ -56,7 +56,7 @@ layout: layout.html
 <p>
 <a href='tel:17039657132'>703-965-7132</a>
 <br/>
-<a href='email:elegantdesignanddecor@gmail.com'>elegantdesignanddecor@gmail.com</a>
+<a href='email:elegantdesignsanddecor@gmail.com'>elegantdesignsanddecor@gmail.com</a>
 </p>
 
 <ul class="flex-container">
@@ -71,5 +71,9 @@ layout: layout.html
     <address>4173 Jeremy Grove <br/>Fairfax, VA 22030</address>
   </li>
 </ul>
-
+<a class='small-device' href='https://goo.gl/forms/omAWZZYsXM2nqJLc2' target='_blank'> Click here to contact us form!</a>
+<div class='center-div' style='width:100%'>
+  <iframe id='googleForm' class='large-device' src="https://docs.google.com/forms/d/e/1FAIpQLSdzkZqiPSz8dCOKx-Vy9uNaWUHtzEVRx5F7hhQbAnYkFH8I6Q/viewform?embedded=true" height="946" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen style='width:100%'>Loading...</iframe>
+</div>
+<br/><br/><br/>
 <script async src="js/site.js"></script>
